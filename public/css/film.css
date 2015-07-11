@@ -1,0 +1,89 @@
+
+.header {
+    margin-top: 40px;
+}
+
+body {
+    background-image: url(../img/film/md.jpg);
+}
+
+.layout {
+    height: auto;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+}
+
+.main-left, .main-right {
+    text-align: center;
+    width: 18%;
+    color: gainsboro;
+    background-image: url(../img/film/bgf.jpg); width: 225px;
+    z-index: -999;
+    background-position: center;
+    background-repeat: repeat-y;
+    border: 1px solid gainsboro;
+    opacity: 1;
+}
+
+.main-center {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 56%;
+    color: ghostwhite;
+    text-align: center;
+}
+
+
+.main-left img, .main-right img {
+    width: 65%;
+    margin-top: 40px;
+}
+
+.c-header {
+    margin-left: 2px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    padding: 20px;
+    width: 100px;
+    height: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Microsoft YaHei', '微软雅黑';
+    font-size: 20px;
+    color: black;
+}
+
+.c-header input{
+    color: #919195;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 45px;
+    border: 0px;
+    border-radius: 10px;
+    z-index: 999;
+    cursor: pointer;
+    background-color: #e2f3ff;
+}
+
+#c-one, #c-two, #c-three, #c-four {
+    margin-left: 128px;
+    text-align: center;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+}
+
+#c-one img {
+    text-align: center;
+}
+
+img {
+    cursor: pointer;
+}
+
+

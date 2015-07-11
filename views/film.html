@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../public/css/film.css">
+    <script src="../public/js/film.js"></script>
+    <link rel="icon" href="../public/img/main/favicon.ico" />
+    <link href="../public/css/blog.css" rel="stylesheet">
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <title>film</title>
+</head>
+<body onload="addOnclickHandles();"> <!--页面加载时为每张图片添加onclick事件属性-->
+<div class="header">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="index.html">
+                    Project &nbsp;Name
+                </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+                    <li><a href="book.html"><span class="glyphicon glyphicon-heart"></span>&nbsp;BOOK</a></li>
+                    <li><a href="film.html"><span class="glyphicon glyphicon-heart"></span>&nbsp;FILM</a></li>
+                    <li><a href="music.html"><span class="glyphicon glyphicon-heart"></span>&nbsp;MUSIC</a></li>
+                    <li><a href="questionaire.html"><span class="glyphicon glyphicon-heart"></span>&nbsp;QUESTIONAIRE</a></li>
+                    <li><a href="about.html"><span class="glyphicon glyphicon-th-large"></span>&nbsp;ABOUT US</a></li>
+                </ul>
+                <div >
+                    <ul class="nav navbar-nav navbar-right"   >
+                        <li> <a  href="syslogin.html">&nbsp;登陆</a></li>
+                        <li> <a  href="register.html"class="sitenav">&nbsp;注册</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+</div>
+
+<div class="layout">
+    <div class="main-left" id="like-left">
+    </div>
+
+    <div class="main-center">
+        <div>
+            <div class="c-header one">
+                <span>畅想系</span><br><br>
+                <input onclick="startOver()" type="button" value="Click me">
+            </div>
+            <div id="c-one">
+                <img src="../public/img/film/动画1超能陆战队.jpg" alt="超能陆战队" title="超能陆战队">
+                <img src="../public/img/film/动画2飞屋环游记.png" alt="飞屋环游记" title="飞屋环游记">
+                <img src="../public/img/film/动画3冰雪奇缘.png" alt="冰雪奇缘" title="冰雪奇缘">
+            </div>
+
+            <div class="c-header one">
+                <span>耍酷派</span><br><br>
+                <input onclick="startOver()" type="button" value="Click me">
+            </div>
+            <div id="c-two">
+                <img src="../public/img/film/动作王牌特工.png" alt="王牌特工" title="王牌特工">
+                <img src="../public/img/film/大侦探福尔摩斯.jpg" alt="福尔摩斯" title="福尔摩斯">
+                <img src="../public/img/film/冒险1疯狂分麦克斯.png" alt="疯狂的麦克斯" title="疯狂的麦克斯">
+            </div>
+
+            <div class="c-header one">
+                <span>科幻派</span><br><br>
+                <input onclick="startOver()" type="button" value="Click me">
+            </div>
+            <div id="c-three">
+                <img src="../public/img/film/科幻1星际穿越.png" alt="星际穿越" title="星际穿越">
+                <img src="../public/img/film/科幻2超体.png" alt="超体" title="超体">
+                <img src="../public/img/film/科幻4地心引力.png" alt="地心引力" title="地心引力">
+            </div>
+
+            <div class="c-header one">
+                <span>经典系</span><br><br>
+                <input onclick="startOver()" type="button" value="Click me">
+            </div>
+            <div id="c-four">
+                <img src="../public/img/film/经典盗梦空间.png" alt="盗梦空间" title="盗梦空间">
+                <img src="../public/img/film/经典2阿甘正传.png" alt="阿甘正传" title="阿甘正传">
+                <img src="../public/img/film/经典1这个杀手不太冷.png" alt="这个杀手不太冷" title="这个杀手不太冷">
+            </div>
+        </div>
+    </div>
+
+    <div class="main-right" id="marquee">
+        <marquee direction="down" style="text-align: center">
+            <img src="../public/img/film/1.jpg" title="好莱坞">
+            <img src="../public/img/film/机器人9号.jpg" title="机器人9号">
+            <img src="../public/img/film/喜剧1再次出发.png" title="再次出发">
+            <img src="../public/img/film/月球.jpg" title="月球">
+            <img src="../public/img/film/木乃伊.jpg" title="木乃伊">
+        </marquee>
+    </div>
+
+</div>
+
+<div class="footer"></div>
+</body>
+
+</html>

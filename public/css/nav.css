@@ -1,0 +1,148 @@
+/*整体感受*/
+#navi.three-d {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+}
+/*button——base指每个导航栏的样式*/
+#navi.three-d .button-base {
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  top: 0px;
+  height: 50px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+}
+#navi.three-d .button-base > div {
+  position: absolute;
+  height: 50px;
+  pointer-events: none;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 2px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transform-origin: 50% 50% -25px;
+  -webkit-transform-origin: 50% 50% -25px;
+  -moz-transform-origin: 50% 50% -25px;
+  -ms-transform-origin: 50% 50% -25px;
+}
+#navi.three-d .button-base > div h1 {
+  font-family: "TrumpGothicEastBold", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-smooth: always;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#navi.three-d .button-base > div .block {
+  display: block;
+  width: 16px;
+  height: 3px;
+  margin-left: -1px;
+  margin-top: 4px;
+}
+#navi.three-d .button-base > div .bottom-border {
+  position: absolute;
+  top: 49px;
+  left: 0px;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+}
+#navi.three-d .button-base > div:nth-child(1) {
+  color: #000000;
+  background-color: #000000;
+  transform: rotateX(90deg);
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
+}
+#navi.three-d .button-base > div:nth-child(1) .block {
+  background-color: #c7c7c7;
+}
+#navi.three-d .button-base > div:nth-child(2) {
+  color: #808080;
+  background-color: #ffffff;
+  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+}
+#navi.three-d .button-base > div:nth-child(2) .block {
+  background-color: #c7c7c7;
+}
+#navi.three-d .button-base:hover {
+  cursor: pointer;
+}
+/*描述如何变化*/
+#navi.three-d .button-base:hover > div {
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+}
+/*#navi.three-d .button-base:hover > div .bottom-border {
+  background-color: #000000;
+}*/
+/*变化结果*/
+#navi.three-d .button-base:hover > div:nth-child(1) {
+  color: #ffffff;
+  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+}
+#navi.three-d .button-base:hover > div:nth-child(2) {
+  color: #000000;
+  background-color: #000000;
+  transform: rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  -ms-transform: rotateX(-90deg);
+}
+/*menu-current指当前选中的导航栏样式*/
+#navi.three-d .menu-current > div {
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+}
+#navi.three-d .menu-current > div .bottom-border {
+  background-color: #000000;
+}
+#navi.three-d .menu-current > div:nth-child(1) {
+  color: #ffffff;
+  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+}
+#navi.three-d .menu-current > div:nth-child(1) .block {
+  background-color: #e74c4c;
+}
+#navi.three-d .menu-current > div:nth-child(2) {
+  color: #000000;
+  background-color: #000000;
+  transform: rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  -ms-transform: rotateX(-90deg);
+}

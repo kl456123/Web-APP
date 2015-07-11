@@ -1,0 +1,1061 @@
+.passage{
+	padding-top: 30px;
+	text-align: center;
+}
+.add{
+	height: 45px;
+}
+.intro-divider {
+    width: 1000px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+p.italic {
+	font-style: italic
+}
+strong {
+	font-weight: 700
+}
+em {
+	font-style: italic
+}
+ol,
+ul.checklist {
+	border-top: 1px solid #c5c9c9;
+	margin: 50px 0 80px;
+}
+ol li,
+ul.checklist li {
+	border-bottom: 1px solid #c5c9c9;
+	padding: 20px 20px 20px 75px;
+	font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+	font-size: 24px;
+	line-height: 30px;
+	color: #323232
+}
+ol {
+	counter-reset: ordered-list
+}
+ol li:before {
+	content: counter(ordered-list);
+	counter-increment: ordered-list;
+	display: block;
+	margin-left: -83px;
+	padding: 0 30px;
+	float: left;
+	color: #03a2ca;
+	font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+	font-weight: 700;
+	font-size: 28px
+}
+ul.checklist li:before {
+	content: "O";
+	display: block;
+	margin-left: -83px;
+	padding: 0 30px;
+	float: left;
+	color: #03a2ca;
+	font-family: "teehanlaxregular";
+	font-size: 23px;
+	line-height: 24px
+}
+ul.normal {
+	margin-bottom: 40px
+}
+ul.normal li {
+	list-style-type: none;
+	background: url('/resources/img/ui/bullet.png') no-repeat left 13px;
+	font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+	font-size: 26px;
+	line-height: 39px;
+	margin-bottom: 15px;
+	padding-left: 30px
+}
+dt {
+	font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 39px;
+	margin-bottom: 5px
+}
+dd {
+	font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+	font-size: 26px;
+	line-height: 39px;
+	margin-bottom: 50px
+}
+a {
+	color: #3ea5ce;
+	text-decoration: none;
+	-webkit-transition: color .2s;
+	-moz-transition: color .2s;
+	-o-transition: color .2s;
+	transition: color .2s
+}
+a:hover {
+	color: #279
+}
+blockquote {
+	font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+	font-size: 92px;
+	line-height: 98px;
+	text-align: center;
+	margin: 100px 0 150px;
+	letter-spacing: -0.02em
+}
+small {
+	font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+	font-size: 16px;
+	margin-bottom: 40px;
+	display: block
+}
+sup {
+	position: relative;
+	font-size: .5em;
+	top: -0.8em
+}
+#page-container,
+.page-content {
+	height: 100%
+}
+#goodbye {
+	overflow: hidden
+}
+#goodbye .header {
+	margin-top: 150px;
+	margin-bottom: 70px;
+	text-align: center
+}
+#goodbye .header h1 {
+	font-size: 50px;
+	line-height: 55px;
+	margin-bottom: 15px
+}
+#goodbye .header p {
+	font-size: 22px;
+	line-height: 33px;
+	color: #858585
+}
+#goodbye .outro {
+	text-align: center;
+	margin-bottom: 100px;
+	border-top: 1px solid #EEE
+}
+#goodbye .outro .tl-guys {
+	color: #3ea5ce;
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-top: -44px;
+	background: #FFF;
+	padding: 30px
+}
+#goodbye .outro .heading {
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 12px
+}
+#goodbye .outro p {
+	font-size: 22px;
+	line-height: 33px;
+	margin-bottom: 5px;
+	color: #858585
+}
+#goodbye .wave {
+	display: inline-block;
+	width: 66px;
+	height: 68px;
+	background-image: url(/resources/img/goodbye/wave-emoji.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 66px 68px;
+	cursor: pointer
+}
+#goodbye .wave:hover {
+	-webkit-animation: wave 500ms infinite;
+	-webkit-transform-origin: bottom right;
+	-moz-animation: wave 500ms infinite;
+	-moz-transform-origin: bottom right;
+	-ms-animation: wave 500ms infinite;
+	-ms-transform-origin: bottom right;
+	animation: wave 500ms infinite;
+	transform-origin: bottom right
+}
+@-webkit-keyframes wave {
+	0% {
+		-webkit-transform: rotate(3deg)
+	}
+	50% {
+		-webkit-transform: rotate(-3deg)
+	}
+	100% {
+		-webkit-transform: rotate(3deg)
+	}
+}
+@-moz-keyframes wave {
+	0% {
+		-moz-transform: rotate(3deg)
+	}
+	50% {
+		-moz-transform: rotate(-3deg)
+	}
+	100% {
+		-moz-transform: rotate(3deg)
+	}
+}
+@-ms-keyframes wave {
+	0% {
+		-ms-transform: rotate(3deg)
+	}
+	50% {
+		-ms-transform: rotate(-3deg)
+	}
+	100% {
+		-ms-transform: rotate(3deg)
+	}
+}
+@keyframes wave {
+	0% {
+		transform: rotate(3deg)
+	}
+	50% {
+		transform: rotate(-3deg)
+	}
+	100% {
+		transform: rotate(3deg)
+	}
+}
+#goodbye audio {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	z-index: 50;
+	opacity: 0
+}
+#goodbye .cards {
+	perspective: 1000;
+	padding-bottom: 60px;
+	*zoom: 1
+}
+#goodbye .cards:before,
+#goodbye .cards:after {
+	display: table;
+	content: "";
+	line-height: 0
+}
+#goodbye .cards:after {
+	clear: both
+}
+#goodbye .card {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	-webkit-transition-duration: 600ms;
+	-moz-transition-duration: 600ms;
+	-o-transition-duration: 600ms;
+	transition-duration: 600ms;
+	-webkit-transition-delay: 150ms;
+	-moz-transition-delay: 150ms;
+	-o-transition-delay: 150ms;
+	transition-delay: 150ms;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	position: relative
+}
+#goodbye .card img {
+	width: 100%
+}
+#goodbye .front,
+#goodbye .back {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	outline: 1px solid transparent
+}
+#goodbye .front {
+	z-index: 2;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg)
+}
+#goodbye .back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg)
+}
+#goodbye .person {
+	width: 230px;
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+#goodbye .person .name {
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, "pragmatica-web", Arial, sans-serif;
+	font-size: 17px;
+	font-weight: bold
+}
+#goodbye .person .info {
+	font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+	font-size: 14px;
+	color: #9b9b9b
+}
+#goodbye .person:hover .card {
+	-webkit-transition-delay: 0;
+	-moz-transition-delay: 0;
+	-o-transition-delay: 0;
+	transition-delay: 0
+}
+#goodbye .paul:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-1.272011341061443deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-1.272011341061443deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-1.272011341061443deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-1.272011341061443deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-1.272011341061443deg) scale(1.07)
+}
+#goodbye .paul .front {
+	background-image: url(http://img12.360buyimg.com/n1/jfs/t643/243/801096904/112502/d001c95c/548a9bd1N5713f66d.jpg)
+}
+#goodbye .paul .back {
+	background-image: url(/resources/img/goodbye/whoa/paul.jpg)
+}
+#goodbye .jdawg:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(1.462421431671828deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(1.462421431671828deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(1.462421431671828deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(1.462421431671828deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(1.462421431671828deg) scale(1.07)
+}
+#goodbye .jdawg .front {
+	background-image: url(/resources/img/goodbye/hey/jdawg.jpg)
+}
+#goodbye .jdawg .back {
+	background-image: url(/resources/img/goodbye/whoa/jdawg.jpg)
+}
+#goodbye .kate:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-0.27078169863671064deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-0.27078169863671064deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-0.27078169863671064deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-0.27078169863671064deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-0.27078169863671064deg) scale(1.07)
+}
+#goodbye .kate .front {
+	background-image: url(http://img14.360buyimg.com/n1/g13/M07/05/0F/rBEhU1IIdeQIAAAAAAeR_FmIJB4AAB93QDkf9MAB5IU914.jpg)
+}
+#goodbye .kate .back {
+	background-image: url(/resources/img/goodbye/whoa/kate.jpg)
+}
+#goodbye .erwin:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-0.07615584600716829deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-0.07615584600716829deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-0.07615584600716829deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-0.07615584600716829deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-0.07615584600716829deg) scale(1.07)
+}
+#goodbye .erwin .front {
+	background-image: url(/resources/img/goodbye/hey/erwin.jpg)
+}
+#goodbye .erwin .back {
+	background-image: url(/resources/img/goodbye/whoa/erwin.jpg)
+}
+#goodbye .bobak:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-2.718833116348833deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-2.718833116348833deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-2.718833116348833deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-2.718833116348833deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-2.718833116348833deg) scale(1.07)
+}
+#goodbye .bobak .front {
+	background-image: url(/resources/img/goodbye/hey/bobak.jpg)
+}
+#goodbye .bobak .back {
+	background-image: url(/resources/img/goodbye/whoa/bobak.jpg)
+}
+#goodbye .nelson:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-2.249293965753168deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-2.249293965753168deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-2.249293965753168deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-2.249293965753168deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-2.249293965753168deg) scale(1.07)
+}
+#goodbye .nelson .front {
+	background-image: url(/resources/img/goodbye/hey/nelson.jpg)
+}
+#goodbye .nelson .back {
+	background-image: url(/resources/img/goodbye/whoa/nelson.jpg)
+}
+#goodbye .brendan:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(2.2846205849200487deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(2.2846205849200487deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(2.2846205849200487deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(2.2846205849200487deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(2.2846205849200487deg) scale(1.07)
+}
+#goodbye .brendan .front {
+	background-image: url(/resources/img/goodbye/hey/brendan.jpg)
+}
+#goodbye .brendan .back {
+	background-image: url(/resources/img/goodbye/whoa/brendan.jpg)
+}
+#goodbye .tanner:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(0.05854036705568433deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(0.05854036705568433deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(0.05854036705568433deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(0.05854036705568433deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(0.05854036705568433deg) scale(1.07)
+}
+#goodbye .tanner .front {
+	background-image: url(http://img11.360buyimg.com/n1/jfs/t1372/256/141990145/247723/7c4f5119/555dd537N5c1d5b4d.jpg)
+}
+#goodbye .tanner .back {
+	background-image: url(/resources/img/goodbye/whoa/tanner.jpg)
+}
+#goodbye .kyra:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-0.7893703440204263deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-0.7893703440204263deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-0.7893703440204263deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-0.7893703440204263deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-0.7893703440204263deg) scale(1.07)
+}
+#goodbye .kyra .front {
+	background-image: url(/resources/img/goodbye/hey/kyra.jpg)
+}
+#goodbye .kyra .back {
+	background-image: url(/resources/img/goodbye/whoa/kyra.jpg)
+}
+#goodbye .matt:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(1.8915756256319582deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(1.8915756256319582deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(1.8915756256319582deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(1.8915756256319582deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(1.8915756256319582deg) scale(1.07)
+}
+#goodbye .matt .front {
+	background-image: url(/resources/img/goodbye/hey/matt.jpg)
+}
+#goodbye .matt .back {
+	background-image: url(/resources/img/goodbye/whoa/matt.jpg)
+}
+#goodbye .simon:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(0.9387548798695207deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(0.9387548798695207deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(0.9387548798695207deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(0.9387548798695207deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(0.9387548798695207deg) scale(1.07)
+}
+#goodbye .simon .front {
+	background-image: url(http://img13.360buyimg.com/n1/g16/M00/06/0C/rBEbRlN0ePIIAAAAAATT-qwU0sgAABPxwGZPeAABNQS784.jpg)
+}
+#goodbye .simon .back {
+	background-image: url(/resources/img/goodbye/whoa/simon.jpg)
+}
+#goodbye .john {
+	cursor: url(/resources/img/story/readability/metal-fingers.png) 0 0, default
+}
+#goodbye .john:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(2.6316138496622443deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(2.6316138496622443deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(2.6316138496622443deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(2.6316138496622443deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(2.6316138496622443deg) scale(1.07)
+}
+#goodbye .john .front {
+	background-image: url(/resources/img/goodbye/hey/john.jpg)
+}
+#goodbye .john .back {
+	background-image: url(/resources/img/goodbye/whoa/john.jpg)
+}
+#goodbye .pierre:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-0.18010405311360955deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-0.18010405311360955deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-0.18010405311360955deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-0.18010405311360955deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-0.18010405311360955deg) scale(1.07)
+}
+#goodbye .pierre .front {
+	background-image: url(/resources/img/goodbye/hey/pierre.jpg)
+}
+#goodbye .pierre .back {
+	background-image: url(/resources/img/goodbye/whoa/pierre.jpg)
+}
+#goodbye .amanda:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(0.045246454887092113deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(0.045246454887092113deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(0.045246454887092113deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(0.045246454887092113deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(0.045246454887092113deg) scale(1.07)
+}
+#goodbye .amanda .front {
+	background-image: url(http://img12.360buyimg.com/n1/jfs/t205/94/1697825521/950671/beb83943/53b65899N870b9643.jpg)
+}
+#goodbye .amanda .back {
+	background-image: url(/resources/img/goodbye/whoa/amanda.jpg)
+}
+#goodbye .steven:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(0.1292631276883185deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(0.1292631276883185deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(0.1292631276883185deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(0.1292631276883185deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(0.1292631276883185deg) scale(1.07)
+}
+#goodbye .steven .front {
+	background-image: url(/resources/img/goodbye/hey/steven.jpg)
+}
+#goodbye .steven .back {
+	background-image: url(/resources/img/goodbye/whoa/steven.jpg)
+}
+#goodbye .kim:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(1.3533190554007888deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(1.3533190554007888deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(1.3533190554007888deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(1.3533190554007888deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(1.3533190554007888deg) scale(1.07)
+}
+#goodbye .kim .front {
+	background-image: url(/resources/img/goodbye/hey/kim.jpg)
+}
+#goodbye .kim .back {
+	background-image: url(/resources/img/goodbye/whoa/kim.jpg)
+}
+#goodbye .michael:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-0.2106712837703526deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-0.2106712837703526deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-0.2106712837703526deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-0.2106712837703526deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-0.2106712837703526deg) scale(1.07)
+}
+#goodbye .michael .front {
+	background-image: url(/resources/img/goodbye/hey/michael.jpg)
+}
+#goodbye .michael .back {
+	background-image: url(/resources/img/goodbye/whoa/michael.jpg)
+}
+#goodbye .derek:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(0.5986506692133844deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(0.5986506692133844deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(0.5986506692133844deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(0.5986506692133844deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(0.5986506692133844deg) scale(1.07)
+}
+#goodbye .derek .front {
+	background-image: url(/resources/img/goodbye/hey/derek.jpg)
+}
+#goodbye .derek .back {
+	background-image: url(/resources/img/goodbye/whoa/derek.jpg)
+}
+#goodbye .steph:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-1.6835383255966008deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-1.6835383255966008deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-1.6835383255966008deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-1.6835383255966008deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-1.6835383255966008deg) scale(1.07)
+}
+#goodbye .steph .front {
+	background-image: url(/resources/img/goodbye/hey/steph.jpg)
+}
+#goodbye .steph .back {
+	background-image: url(/resources/img/goodbye/whoa/steph.jpg)
+}
+#goodbye .justin:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(1.4885962517000735deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(1.4885962517000735deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(1.4885962517000735deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(1.4885962517000735deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(1.4885962517000735deg) scale(1.07)
+}
+#goodbye .justin .front {
+	background-image: url(http://img13.360buyimg.com/n1/jfs/t1411/125/165756730/867481/e84f3817/555ea9c9Nc7011b1a.jpg)
+}
+#goodbye .justin .back {
+	background-image: url()
+}
+#goodbye .steff:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(1.1485491106286645deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(1.1485491106286645deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(1.1485491106286645deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(1.1485491106286645deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(1.1485491106286645deg) scale(1.07)
+}
+#goodbye .steff .front {
+	background-image: url(/resources/img/goodbye/hey/steff.jpg)
+}
+#goodbye .steff .back {
+	background-image: url(/resources/img/goodbye/whoa/steff.jpg)
+}
+#goodbye .nery:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(2.068266590125859deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(2.068266590125859deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(2.068266590125859deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(2.068266590125859deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(2.068266590125859deg) scale(1.07)
+}
+#goodbye .nery .front {
+	background-image: url(/resources/img/goodbye/hey/nery.jpg)
+}
+#goodbye .nery .back {
+	background-image: url(/resources/img/goodbye/whoa/nery.jpg)
+}
+#goodbye .keely:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-1.6493704388849437deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-1.6493704388849437deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-1.6493704388849437deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-1.6493704388849437deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-1.6493704388849437deg) scale(1.07)
+}
+#goodbye .keely .front {
+	background-image: url(http://img13.360buyimg.com/n1/g15/M01/06/17/rBEhWVIaypAIAAAAAAM6O0tFC2kAACcjwHWltcAAzpT089.jpg)
+}
+#goodbye .keely .back {
+	background-image: url(/resources/img/goodbye/whoa/keely.jpg)
+}
+#goodbye .eugene:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(2.7426117584109306deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(2.7426117584109306deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(2.7426117584109306deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(2.7426117584109306deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(2.7426117584109306deg) scale(1.07)
+}
+#goodbye .eugene .front {
+	background-image: url(/resources/img/goodbye/hey/eugene.jpg)
+}
+#goodbye .eugene .back {
+	background-image: url(/resources/img/goodbye/whoa/eugene.jpg)
+}
+#goodbye .eric:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-0.45798410614952445deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-0.45798410614952445deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-0.45798410614952445deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-0.45798410614952445deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-0.45798410614952445deg) scale(1.07)
+}
+#goodbye .eric .front {
+	background-image: url(http://img13.360buyimg.com/n1/g9/M00/10/0D/rBEHalDFjFQIAAAAAAEmwTp_bssAADNNAK8saMAASbZ216.jpg)
+}
+#goodbye .eric .back {
+	background-image: url(/resources/img/goodbye/whoa/eric.jpg)
+}
+#goodbye .jason:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-0.32489927764981985deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-0.32489927764981985deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-0.32489927764981985deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-0.32489927764981985deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-0.32489927764981985deg) scale(1.07)
+}
+#goodbye .jason .front {
+	background-image: url(/resources/img/goodbye/hey/jason.jpg)
+}
+#goodbye .jason .back {
+	background-image: url(/resources/img/goodbye/whoa/jason.jpg)
+}
+#goodbye .stu:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-1.8305404745042324deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-1.8305404745042324deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-1.8305404745042324deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-1.8305404745042324deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-1.8305404745042324deg) scale(1.07)
+}
+#goodbye .stu .front {
+	background-image: url(/resources/img/goodbye/hey/stu.jpg)
+}
+#goodbye .stu .back {
+	background-image: url(/resources/img/goodbye/whoa/stu.jpg)
+}
+#goodbye .kevin:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(0.24823354929685593deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(0.24823354929685593deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(0.24823354929685593deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(0.24823354929685593deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(0.24823354929685593deg) scale(1.07)
+}
+#goodbye .kevin .front {
+	background-image: url(http://img10.360buyimg.com/n1/jfs/t454/320/45347549/1248515/9d22820e/5448dce4N587a2711.jpg)
+}
+#goodbye .kevin .back {
+	background-image: url(http://com.teehanlax.assets.s3-website-us-east-1.amazonaws.com/prod/css/main.css?v=1.1/resources/img/goodbye/whoa/kevin.jpg)
+}
+#goodbye .jeanette:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-2.9067260921001434deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-2.9067260921001434deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-2.9067260921001434deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-2.9067260921001434deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-2.9067260921001434deg) scale(1.07)
+}
+#goodbye .jeanette .front {
+	background-image: url(/resources/img/goodbye/hey/jeanette.jpg)
+}
+#goodbye .jeanette .back {
+	background-image: url(/resources/img/goodbye/whoa/jeanette.jpg)
+}
+#goodbye .leigh:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(0.03424516227096319deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(0.03424516227096319deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(0.03424516227096319deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(0.03424516227096319deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(0.03424516227096319deg) scale(1.07)
+}
+#goodbye .leigh .front {
+	background-image: url(/resources/img/goodbye/hey/leigh.jpg)
+}
+#goodbye .leigh .back {
+	background-image: url(/resources/img/goodbye/whoa/leigh.jpg)
+}
+#goodbye .marco:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(2.615775585640222deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(2.615775585640222deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(2.615775585640222deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(2.615775585640222deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(2.615775585640222deg) scale(1.07)
+}
+#goodbye .marco .front {
+	background-image: url(http://img13.360buyimg.com/n1/jfs/t1009/234/23674164/42828/3cfb965c/54e19ed8Nc4410aec.jpg)
+}
+#goodbye .marco .back {
+	background-image: url(/resources/img/goodbye/whoa/marco.jpg)
+}
+#goodbye .alex:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-1.4332754951901734deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-1.4332754951901734deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-1.4332754951901734deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-1.4332754951901734deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-1.4332754951901734deg) scale(1.07)
+}
+#goodbye .alex .front {
+	background-image: url(/resources/img/goodbye/hey/alex.jpg)
+}
+#goodbye .alex .back {
+	background-image: url(/resources/img/goodbye/whoa/alex.jpg)
+}
+#goodbye .jessie:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-2.7860299316234887deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-2.7860299316234887deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-2.7860299316234887deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-2.7860299316234887deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-2.7860299316234887deg) scale(1.07)
+}
+#goodbye .jessie .front {
+	background-image: url(/resources/img/goodbye/hey/jessie.jpg)
+}
+#goodbye .jessie .back {
+	background-image: url(/resources/img/goodbye/whoa/jessie.jpg)
+}
+#goodbye .jeff:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(0.4132471773773432deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(0.4132471773773432deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(0.4132471773773432deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(0.4132471773773432deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(0.4132471773773432deg) scale(1.07)
+}
+#goodbye .jeff .front {
+	background-image: url(/resources/img/goodbye/hey/jeff.jpg)
+}
+#goodbye .jeff .back {
+	background-image: url(/resources/img/goodbye/whoa/jeff.jpg)
+}
+#goodbye .jayne:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-2.2026978456415236deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-2.2026978456415236deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-2.2026978456415236deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-2.2026978456415236deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-2.2026978456415236deg) scale(1.07)
+}
+#goodbye .jayne .front {
+	background-image: url(/resources/img/goodbye/hey/jayne.jpg)
+}
+#goodbye .jayne .back {
+	background-image: url(/resources/img/goodbye/whoa/jayne.jpg)
+}
+#goodbye .sharon:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(1.0129619417712092deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(1.0129619417712092deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(1.0129619417712092deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(1.0129619417712092deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(1.0129619417712092deg) scale(1.07)
+}
+#goodbye .sharon .front {
+	background-image: url(/resources/img/goodbye/hey/sharon.jpg)
+}
+#goodbye .sharon .back {
+	background-image: url(/resources/img/goodbye/whoa/sharon.jpg)
+}
+#goodbye .marc:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-2.7718566921539605deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-2.7718566921539605deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-2.7718566921539605deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-2.7718566921539605deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-2.7718566921539605deg) scale(1.07)
+}
+#goodbye .marc .front {
+	background-image: url(http://img11.360buyimg.com/n1/jfs/t337/362/65469055/1282490/86a0fdf3/54005620N6df1c668.jpg)
+}
+#goodbye .marc .back {
+	background-image: url(/resources/img/goodbye/whoa/marc.jpg)
+}
+#goodbye .payam:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(1.9831777028739452deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(1.9831777028739452deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(1.9831777028739452deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(1.9831777028739452deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(1.9831777028739452deg) scale(1.07)
+}
+#goodbye .payam .front {
+	background-image: url(http://img10.360buyimg.com/n1/jfs/t667/231/1295145783/256241/817f0975/54cb2cf1Nf6e48949.jpg)
+}
+#goodbye .payam .back {
+	background-image: url(/resources/img/goodbye/whoa/payam.jpg)
+}
+#goodbye .jessica:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-2.0703296517021954deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-2.0703296517021954deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-2.0703296517021954deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-2.0703296517021954deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-2.0703296517021954deg) scale(1.07)
+}
+#goodbye .jessica .front {
+	background-image: url(/resources/img/goodbye/hey/jessica.jpg)
+}
+#goodbye .jessica .back {
+	background-image: url(/resources/img/goodbye/whoa/jessica.jpg)
+}
+#goodbye .emilia:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(-1.8009033710695803deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(-1.8009033710695803deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(-1.8009033710695803deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(-1.8009033710695803deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(-1.8009033710695803deg) scale(1.07)
+}
+#goodbye .emilia .front {
+	background-image: url(/resources/img/goodbye/hey/emilia.jpg)
+}
+#goodbye .emilia .back {
+	background-image: url(/resources/img/goodbye/whoa/emilia.jpg)
+}
+#goodbye .jonas:hover .card {
+	-webkit-transform: rotateY(180deg) rotateZ(1.795420044567436deg) scale(1.07);
+	-moz-transform: rotateY(180deg) rotateZ(1.795420044567436deg) scale(1.07);
+	-ms-transform: rotateY(180deg) rotateZ(1.795420044567436deg) scale(1.07);
+	-o-transform: rotateY(180deg) rotateZ(1.795420044567436deg) scale(1.07);
+	transform: rotateY(180deg) rotateZ(1.795420044567436deg) scale(1.07)
+}
+#goodbye .jonas .front {
+	background-image: url(/resources/img/goodbye/hey/jonas.jpg)
+}
+#goodbye .jonas .back {
+	background-image: url(/resources/img/goodbye/whoa/jonas.jpg)
+}
+@media all and (max-width: 500px) and (min-width: 0) {
+	#goodbye .header {
+		margin-top: 90px;
+		margin-bottom: 50px
+	}
+	#goodbye .header h1 {
+		font-size: 34px;
+		line-height: 38px
+	}
+	#goodbye .header p {
+		font-size: 16px;
+		line-height: 22px
+	}
+	#goodbye .outro {
+		margin-bottom: 70px
+	}
+	#goodbye .outro .tl-guys {
+		margin-bottom: 10px
+	}
+	#goodbye .outro .heading {
+		font-size: 12px;
+		margin-bottom: 12px
+	}
+	#goodbye .outro p {
+		font-size: 16px;
+		line-height: 22px;
+		margin-bottom: 5px
+	}
+	#goodbye .card {
+		margin-bottom: 10px
+	}
+	#goodbye .front,
+	#goodbye .back {
+		border-radius: 15px
+	}
+	#goodbye .person {
+		width: 46%;
+		margin-right: 7%;
+		margin-bottom: 30px
+	}
+	#goodbye .person:nth-child(even) {
+		margin-right: 0
+	}
+	#goodbye .person .name {
+		font-size: 12px
+	}
+	#goodbye .person .info {
+		font-size: 10px
+	}
+}
+.site-width {
+	*zoom: 1;
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	clear: left
+}
+.site-width:before,
+.site-width:after {
+	display: table;
+	content: "";
+	line-height: 0
+}
+.site-width:after {
+	clear: both
+}
+html {
+	color: #000;
+	background: #fff
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+select,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+fieldset,
+img {
+	border: 0
+}
+address,
+button,
+caption,
+cite,
+code,
+dfn,
+em,
+input,
+optgroup,
+option,
+select,
+strong,
+textarea,
+th,
+var {
+	font: inherit
+}
+del,
+ins {
+	text-decoration: none
+}
+li {
+	list-style: none
+}
+caption,
+th {
+	text-align: left
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+q:before,
+q:after {
+	content: ''
+}
+abbr,
+acronym {
+	border: 0;
+	font-variant: normal
+}
+sup {
+	vertical-align: baseline
+}
+sub {
+	vertical-align: baseline
+}
+legend {
+	color: #000
+}
+.column {
+	float: left
+}
+.group {
+	float: left;
+	*zoom: 1
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both
+}
+.guide {
+	position: absolute;
+	z-index: 999999;
+	height: 1000px;
+	width: 100%
+}
+@media only screen and (min-width: 960px) {
+	.guide {
+		background: -webkit-linear-gradient(left, #f00 1%, rgba(255, 0, 0, 0.2) 1%, rgba(255, 0, 0, 0.2) 11.799999999999999%, transparent 11.799999999999999%, transparent 89.2%, rgba(255, 0, 0, 0.2) 89.2%);
+		background-size: 8.333333333333334%
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.guide {
+		background: -webkit-linear-gradient(left, #f00 1%, rgba(255, 0, 0, 0.2) 1%, rgba(255, 0, 0, 0.2) 6.3999999999999995%, transparent 6.3999999999999995%, transparent 94.6%, rgba(255, 0, 0, 0.2) 94.6%);
+		background-size: 16.666666666666668%
+	}
+}
+@media only screen and (max-width: 767px) {
+	.guide {
+		background: -webkit-linear-gradient(left, #f00 1%, rgba(255, 0, 0, 0.2) 1%, rgba(255, 0, 0, 0.2) 2.8%, transparent 2.8%, transparent 98.2%, rgba(255, 0, 0, 0.2) 98.2%);
+		background-size: 50%
+	}
+}

@@ -1,0 +1,108 @@
+#op{
+	background-color: chocolate;
+	
+	width: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+	border: dashed;
+	
+	
+	display:block;
+	
+}
+#ss{
+	
+	width: 200px;
+	
+	margin: 0px;
+    
+}
+#example {
+                float: left;
+            }
+            #example p {
+                margin: 0 0.25em;
+                padding: 0.25em 0;
+            }
+            #div-before,
+            #div-after {
+                background-color: #88d;
+                color: #000;
+            }
+            
+            #div-1 {
+                width: 400px;
+                background-color: #000;
+                color: #fff;
+            }
+            #div-1-padding {
+            	
+            	
+                padding: 10px;
+            }
+            #div-1a {
+                background-color: #d33;
+                color: #fff;
+            }
+            #div-1b {
+                background-color: #3d3;
+                color: #fff;
+            }
+ 
+            #div-1c {
+                background-color: #33d;
+                color: #fff;
+            }
+            .animated_div {
+  width: 65px;
+  height: 40px;
+  background: #92B901;
+  color: #ffffff;
+  position: absolute;
+  font-weight: bold;
+  font: 12px '微软雅黑', Verdana, Arial, Helvetica, sans-serif;
+  padding: 20px 10px 0px 10px;
+  float: left;
+  margin: 5px;
+  -webkit-transition: -webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
+  -webkit-border-radius: 5px;
+  -o-transition-property: width,height,-o-transform,background,font-size,opacity;
+  -o-transition-duration: 1s,1s,1s,1s,1s,1s;
+  -moz-transition-property: width,height,-o-transform,background,font-size,opacity;
+  -moz-transition-duration: 1s,1s,1s,1s,1s,1s;
+  transition-property: width,height,transform,background,font-size,opacity;
+  transition-duration: 1s,1s,1s,1s,1s,1s;
+  border-radius: 5px;
+  opacity: 0.4;
+}
+#grad1 {
+    height: 200px;
+    
+    background: linear-gradient(red, blue); /* 标准的语法（必须放在最后） */
+}
+#grad2{
+	height: 200px;
+	width: 200px;
+	background: radial-gradient(red, yellow, green);
+}
+div#grad3{
+	width: 100px;
+	height: 100px;
+	background: red;
+	transition: width 2s,height 2s,transform 2s;  
+}
+div#grad3:hover{
+	width: 200px;
+	height: 200px;
+	transform: rotate(180deg);
+}
+div#grad4{
+	width: 100px;
+	height: 100px;
+	background: green;
+	transition: height 2s;
+	
+}
+div#grad4:hover{
+	height: 400px;
+}
